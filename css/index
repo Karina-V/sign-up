@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d5d5d5;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  text-align: left;
+}
+.style-form {
+  background-color: #fff;
+  width: 100%;
+  max-width: 500px;
+  padding: 50px 60px 30px 60px;
+  color: #22273a;
+  font-size: 16px;
+  border: 1px solid #e3e4e7;
+  border-radius: 5px;
+}
+.style-form-heading {
+  font-weight: 400;
+  font-size: 25px;
+  color: #1b2033;
+}
+
+.text-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #e5e6e8;
+  border-radius: 5px;
+  height: 40px;
+  box-sizing: border-box;
+
+  /* border-color: e3e4e7; */
+}
+
+#stay-signed-in-box {
+  font-size: 23px;
+  box-shadow: 0px 0px -10px #333;
+}
+#login {
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #5f6fce;
+}
+
+.continue {
+  cursor: pointer;
+  padding: 15px 20px;
+  width: 100%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #5868cc;
+  box-shadow: 0px 0px 7px #333;
+  transition: all 0.8s;
+  radius: 2%;
+}
+#passw {
+}
+.continue:hover {
+  color: #fff;
+  box-shadow: 2px 2px 8px #333;
+}
+.continue:active {
+  transform: scale(0.9);
+}
+.login,
+.password,
+.stay-signed-in {
+  font-weight: 700;
+}
